@@ -1,6 +1,6 @@
 import React, {useState, useRef, useEffect} from 'react';
 import TodoList from './TodoList'
-import uuidv3 from 'uuid/v4' // generates random ids
+import uuidv4 from 'uuid/v4' // generates random ids
 
 const LOCAL_STORAGE_KEY = 'todoApp.todos'
 
